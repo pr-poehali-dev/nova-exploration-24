@@ -147,6 +147,8 @@ export function Hero() {
             <br />
             <span className="text-orange-200">{"в вашем доме"}</span>
           </h1>
+
+          <p className="text-sm tracking-[0.25em] uppercase text-center text-white/50 mt-6">{"Честно · Прозрачно · Надёжно"}</p>
         </div>
       </div>
 
