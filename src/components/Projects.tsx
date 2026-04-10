@@ -20,7 +20,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Зимний сад в Барвихе",
+    title: "Зимний сад",
     category: "Зимний сад",
     location: "Барвиха, МО",
     year: "2023",
