@@ -45,15 +45,16 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:info@svetisteklo.ru" className="hover:text-foreground transition-colors">
-                  info@svetisteklo.ru
+                <a href="mailto:89231072101@mail.ru" className="hover:text-foreground transition-colors">
+                  89231072101@mail.ru
                 </a>
               </li>
               <li>
-                <a href="tel:+74951234567" className="hover:text-foreground transition-colors">
-                  +7 (495) 123-45-67
+                <a href="tel:+79231072101" className="hover:text-foreground transition-colors">
+                  +7 (923) 107-21-01
                 </a>
               </li>
+              <li className="text-muted-foreground">Новосибирск</li>
               <li>
                 <a href="#" className="hover:text-foreground transition-colors">
                   Телеграм
