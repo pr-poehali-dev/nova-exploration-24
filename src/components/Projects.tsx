@@ -69,7 +69,7 @@ export function Projects() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
             <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Проекты</h2>
           </div>
           <a
             href="#"
@@ -109,7 +109,7 @@ export function Projects() {
                 <div>
                   <h3 className="text-xl font-medium mb-2 group-hover:underline underline-offset-4">{project.title}</h3>
                   <p className="text-muted-foreground text-sm">
-                    {project.category} · {project.location}
+                    {project.category}
                   </p>
                 </div>
                 <span className="text-muted-foreground/60 text-sm">{project.year}</span>
