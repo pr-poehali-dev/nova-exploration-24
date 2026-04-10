@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Офисный центр «Призма»",
+    title: "Офисный центр",
     category: "Офисные перегородки",
     location: "Москва",
     year: "2024",
