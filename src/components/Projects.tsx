@@ -32,7 +32,7 @@ const projects = [
     category: "Стеклянная беседка",
     location: "Подмосковье",
     year: "2023",
-    image: "https://cdn.poehali.dev/projects/e360761f-2ee8-4573-895c-f40abeed65b7/files/e66b3d62-a5e3-46e3-9cbf-1e9bc64936d2.jpg",
+    image: "https://cdn.poehali.dev/projects/e360761f-2ee8-4573-895c-f40abeed65b7/files/78ee577f-f5d1-4c01-a368-680d31450cd3.jpg",
   },
 ]
 
