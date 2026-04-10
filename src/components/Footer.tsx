@@ -11,6 +11,7 @@ export function Footer() {
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Студия стеклянных конструкций Анны Малькевич. Офисные перегородки, витражи, зимние сады и беседки — под ключ.
             </p>
+            <p className="text-muted-foreground text-sm mt-3">📍 Новосибирск</p>
           </div>
 
           {/* Navigation */}
@@ -71,7 +72,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm text-muted-foreground">
-          <p>© 2025 Студия «Свет и стекло». Все права защищены.</p>
+          <p>© 2025 Студия стеклянных конструкций Анны Малькевич · Новосибирск</p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-foreground transition-colors">
               Политика конфиденциальности
