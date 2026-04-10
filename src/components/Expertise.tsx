@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
+import Icon from "@/components/ui/icon"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Офисные перегородки",
+    description: "Стеклянные перегородки для офисов: зонирование пространства без потери света и ощущения открытости. Системы раздвижных, распашных и неподвижных конструкций.",
+    icon: "Building2",
   },
   {
-    title: "Коммерческие объекты",
+    title: "Витражное остекление",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Создаём витражи по индивидуальным эскизам: цветное, текстурное, художественное стекло. Для входных групп, фасадов, интерьерных перегородок.",
+    icon: "Sparkles",
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Зимние сады",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Проектируем и монтируем зимние сады из стекла и алюминия. Тёплое остекление с энергосберегающими стеклопакетами для круглогодичного использования.",
+    icon: "Leaf",
   },
   {
-    title: "Градостроительство",
+    title: "Беседки и террасы",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Стеклянные беседки и навесы для загородных домов и участков. Закалённое и ламинированное стекло, устойчивое к нагрузкам и перепадам температур.",
+    icon: "Home",
   },
 ]
 
@@ -59,19 +59,17 @@ export function Expertise() {
         <div className="max-w-3xl mb-20">
           <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Конструкции</HighlightedText>, которые
             <br />
-            практикой
+            преображают
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Более 10 лет опыта в стеклянных конструкциях — от небольших перегородок до масштабных зимних садов и витражей под ключ.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-x-12 gap-y-16">
-          {expertiseAreas.map((area, index) => {
-            const Icon = area.icon
-            return (
+          {expertiseAreas.map((area, index) => (
               <div
                 key={area.title}
                 ref={(el) => {
@@ -91,13 +89,12 @@ export function Expertise() {
                     transitionDelay: `${index * 150}ms`,
                   }}
                 >
-                  <Icon className="w-10 h-10 mb-4 text-foreground" strokeWidth={1.25} />
+                  <Icon name={area.icon} size={40} className="mb-4 text-foreground" />
                 </div>
                 <h3 className="text-xl font-medium mb-4">{area.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{area.description}</p>
               </div>
-            )
-          })}
+          ))}
         </div>
       </div>
     </section>
