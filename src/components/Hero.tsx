@@ -124,6 +124,7 @@ export function Hero() {
           alt="Зимний сад с панорамным остеклением"
           className="w-full h-full object-cover object-center"
         />
+        <div className="absolute inset-0 bg-black/50" />
       </div>
 
       <div
