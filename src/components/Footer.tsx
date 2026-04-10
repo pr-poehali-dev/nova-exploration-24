@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
+              <span className="text-base font-medium">Студия стеклянных конструкций Анны Малькевич</span>
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Студия стеклянных конструкций Анны Малькевич. Офисные перегородки, витражи, зимние сады и беседки — под ключ.
